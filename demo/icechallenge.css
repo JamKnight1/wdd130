@@ -1,0 +1,33 @@
+body{
+    background-color: hsl(336, 93%, 82%);
+    text-align: center;
+    margin: 0.1%;
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+p.first-quote{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+p.second-quote{
+    color: white;
+    font-size: 300%;
+}
+p.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 364px;
+    height: 455px;
+}

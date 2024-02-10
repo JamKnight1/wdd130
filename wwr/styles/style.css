@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Open+Sans:wght@300&display=swap');
+
 body{
     background-color: #239AB3;
+    font-family: 'Open Sans', Verdana, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 div#content{
     max-width: 1600px;
     margin: 0 auto;
+}
+#logo_link{
+    padding-top: 5px;
 }
 header{
     background-color: #239ab3;
@@ -12,6 +21,7 @@ nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #239AB3;
@@ -19,6 +29,9 @@ nav a:hover{
 }
 .home-title{
     color: black;
+    font-family: 'Belanosima', Verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 #hero-msg h1{
     text-align: center;
@@ -29,6 +42,9 @@ nav a:hover{
 img#hero-img{
     width: 100%;
 }
+h2{
+    margin: 0;
+}
 h4{
     color: black;
 }
@@ -36,11 +52,19 @@ h4{
     background-color: #239AB3;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color: #239AB3;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #239AB3;
@@ -56,12 +80,22 @@ h4{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 img.logo{
     width: 80px;
     height: auto;
 }
 img.icon{
     width: 80px;
+    padding-top: 10px;
+}
+.card-img{
+    border: 10px solid aquamarine;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 #background{
     background-color: #d1ccdc;
@@ -69,12 +103,17 @@ img.icon{
 }
 .msg{
     background-color: #239AB3;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: black;
+    font-family: 'Belanosima', Verdana, sans-serif;
 }
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 div.social img{
     width: 50px;
@@ -83,6 +122,8 @@ div.social img{
 footer{
     background-color: #239AB3;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
     font-size: 1.2em
@@ -96,4 +137,7 @@ footer a{
 }
 footer a:hover{
     color: black;
+}
+footer .social img{
+    padding-top: 15px;
 }

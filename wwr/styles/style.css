@@ -205,6 +205,8 @@ footer a:hover{
 footer .social img{
     padding-top: 15px;
 }
+    /*Page2 rules*/
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

@@ -103,8 +103,8 @@ h4{
     text-align: center;
 }
 main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
 }
 main section{
     text-align: center;
@@ -206,6 +206,89 @@ footer .social img{
     padding-top: 15px;
 }
     /*Page2 rules*/
+
+main.rivers-grid{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; */
+    justify-content: center;
+    align-content: center;
+}
+
+.salmon:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.gray:hover{
+    opacity: .6;
+    transform: scale(1.1);
+
+}.grand:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+div#salmon-items{
+    background-color: aquamarine;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%
+}
+
+img.salmon{
+    /* grid-column: 1/3 ;
+    grid-row: 1/4;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px gray;
+} 
+.salmon-text{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    font-size: 0.7em;
+}
+
+div#gray-items{
+    background-color: #d1ccdc;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%
+}
+
+img.gray{
+    /* grid-template-columns: 1/3;
+    grid-template-rows: 2/4; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px gray;
+}
+.gray-text{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    font-size: 0.7em;
+}
+
+div#grand-items{
+    background-color: aquamarine;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%
+}
+img.grand{
+    /* grid-column: 1/3 ;
+    grid-row: 3/4; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px gray;
+}
+.grand-text{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    font-size: 0.7em;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

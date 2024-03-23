@@ -105,6 +105,38 @@ img.logo{
     width: 1fr;
     height: 200px;
 }
+#pages{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 500px 100px;
+    justify-items: center;
+    
+}
+#bounties-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 75%;
+}
+#bounties{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+#locations{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+}
+#locations-img{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 481px;
+    height: 250px;
+}
+.pages-link{
+    color: white;
+    text-decoration: none;
+}
 
 footer{
     background-color: #ddffd9;

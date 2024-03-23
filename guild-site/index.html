@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adventurer’s Guild</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+    <main>
     <header>
-        <a href="index.html"></a>
-        <img src="images/fantasy-logo.png" alt="site logo">
+        <a href="index.html">
+        <img class="logo" src="images/fantasy-logo.png" alt="site logo">
+        </a>
         <nav>
             <a href="index.html">Home</a>
             <a href="bounties.html">Bounties</a>
@@ -16,21 +19,28 @@
         </nav>
     </header> 
     <div id="hero">
-        <img src="images/dragonfight.jpg" alt="Adventurers fighting a dragon">
-        <h1>ADVENTURERS WANTED</h1>
-        <p>Do you seek adventure? A fun and exciting way to earn some gold? Or maybe you just want a job that will allow you to explore the surrounding nations of Syldena, Rulinor, and Lineria? Then apply today at the Adventurers Guild!</p>
+        <div id="hero-box">
+            <img id="hero-img" src="images/dragonfight.jpg" alt="Adventurers fighting a dragon">
+        </div>
+        <div id="hero-msg">
+            <h1>ADVENTURERS WANTED</h1>
+            <div class="button-box">
+                <a class="apply" href="">Apply Today</a>
+            </div>
+        </div>
+            <p class="hero-msg2">Do you seek adventure? A fun and exciting way to earn some gold? Or maybe you just want a job that will allow you to explore the surrounding nations of Syldena, Rulinor, and Lineria? Then apply today at the Adventurers Guild!</p>
     </div>
     <div id="roulette">
-        <section>
-            <img src="images/gold.jpg" alt="Gold">
+        <section class="gold">
+            <img id="gold-img" src="images/gold.jpg" alt="Gold">
             <h3>Gold</h3>
         </section>
-        <section>
-            <img src="images/adventuringgroup.jpg" alt="Adventure">
+        <section class="adventure">
+            <img id="adventure-img" src="images/adventuringgroup.jpg" alt="Adventure">
             <h3>Adventure</h3>
         </section>
-        <section>
-            <img src="images/fantasymountains.jpg" alt="Mountains">
+        <section class="travel">
+            <img id="travel-img" src="images/fantasymountains.jpg" alt="Mountains">
             <h3>Travel</h3>
         </section>
     </div>
@@ -46,8 +56,9 @@
     </div>
     <footer>
         <h3>Adventurer’s Guild &copy; 2024 - Josh Kotter</h3>
-        <a href="site-plan.html">Site Plan</a>
-        <a href="application.html">Apply Now</a>
+        <a class="footer-link" href="site-plan.html">Site Plan</a>
+        <a class="footer-link" href="application.html">Apply Now</a>
     </footer>
+    </main>
 </body>
 </html>

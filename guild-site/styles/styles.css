@@ -86,7 +86,7 @@ img.logo{
     font-family: Lugrasimo, Verdana, sans-serif;
 }
 #gold-img{
-    width: 1fr;
+    width: auto;
     height: 200px;
 }
 .adventure{
@@ -94,7 +94,7 @@ img.logo{
     font-family: Lugrasimo, Verdana, sans-serif;
 }
 #adventure-img{
-    width: 1fr;
+    width: auto;
     height: 200px;
 }
 .travel{
@@ -102,7 +102,7 @@ img.logo{
     font-family: Lugrasimo, Verdana, sans-serif;
 }
 #travel-img{
-    width: 1fr;
+    width: auto;
     height: 200px;
 }
 #pages{

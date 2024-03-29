@@ -11,11 +11,13 @@ body{
 }
 main{
     display: grid;
+    margin: 10px;
 }
 header{
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #ddffd955;
+    z-index: 1;
 }
 nav{
     display: flex; 
@@ -39,7 +41,6 @@ img.logo{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
-    z-index: -1;
 }
 #hero-box{
     grid-column: 1/4;
@@ -53,6 +54,7 @@ img.logo{
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+    z-index: 1;
 }
 #hero-msg h1{
     text-align: center;
@@ -61,6 +63,11 @@ img.logo{
 }
 .button-box{
     text-align: center;
+    
+    
+}
+.button-box a{
+    z-index: 2;
 }
 .apply{
     background-color: #105010;
@@ -109,7 +116,7 @@ img.logo{
 #pages{
     display: grid;
     grid-template-columns: 400px 1fr;
-    grid-template-rows: 500px 100px;
+    grid-template-rows: 500px 1.5fr;
     justify-items: center;
     
 }
@@ -158,6 +165,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: -10px;
 }
 .footer-link{
     font-size: 1.2em
@@ -170,6 +178,64 @@ footer{
     color: black;
     text-decoration: none;
 }
+/* Bounties css */
+.heading{
+    font-family: Lugrasimo, Verdana, sans-serif;
+    text-align: center;
+}
+.bounty_text{
+    text-align: center;
+}
+#bounty-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px 500px 500px;
+    justify-items: center;
+    text-align: center;
+}
+#shotragar_img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#shotragar{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#owlbear_img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#owlbear{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#ares_img{
+    height: 350px;
+    width: 350px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#ares{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#scar_img{
+    height: 75%;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+#scar{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+
+
+
+
+
+
+
 /* apply page css */
 * {box-sizing: border-box}
 

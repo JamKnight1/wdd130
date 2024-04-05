@@ -18,6 +18,7 @@ header{
     grid-template-columns: 150px auto;
     background-color: #ddffd955;
     z-index: 1;
+    margin: -10px;
 }
 nav{
     display: flex; 
@@ -37,26 +38,28 @@ img.logo{
     width: 80px;
     height:auto;
 }
-#hero{
+.hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 #hero-box{
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
-#hero-img{
+.hero-img{
     width: 100%;
 }
-#hero-msg{
+.hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
     z-index: 1;
 }
-#hero-msg h1{
+.hero-msg h1{
     text-align: center;
     color: white;
     font-family: Lugrasimo, Verdana, sans-serif;
@@ -96,6 +99,7 @@ img.logo{
 #gold-img{
     width: auto;
     height: 200px;
+    border: 7px solid #d7907b;
 }
 .adventure{
     grid-column: 2/3;
@@ -104,6 +108,7 @@ img.logo{
 #adventure-img{
     width: auto;
     height: 200px;
+    border: 7px solid #d7907b;
 }
 .travel{
     grid-column: 3/4;
@@ -112,6 +117,7 @@ img.logo{
 #travel-img{
     width: auto;
     height: 200px;
+    border: 7px solid #d7907b;
 }
 #pages{
     display: grid;
@@ -229,7 +235,69 @@ footer{
     grid-row: 4/5;
 }
 
+/* Location page css */
+.location-hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.location-hero-img{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    width: 100%;
+    height: 80%;
+}
 
+#location-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.location-hero-msg{
+    font-family: Lugrasimo, Verdana, sans-serif;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 150px;
+}
+#mainhall{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.mainhall-img{
+    width: 405px;
+    height: 250px;
+    border: 7px solid #88292f;
+}
+#lineria{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.lineria-img{
+    width: 405px;
+    height: 250px;
+    border: 7px solid #88292f;
+}
+#rulinor{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.rulinor-img{
+    width: 405px;
+    height: 250px;
+    border: 7px solid #88292f;
+}
+#syldena{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.syldena-img{
+    width: 405px;
+    height: 250px;
+    border: 7px solid #88292f;
+}
 
 
 
